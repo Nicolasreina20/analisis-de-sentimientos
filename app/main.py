@@ -26,7 +26,7 @@ from text_utils import (
 app = Flask(__name__)
 app.secret_key = os.environ.get("FLASK_SECRET_KEY", "super-secret-key")
 
-GOOGLE_CLIENT_ID = os.environ.get("GOOGLE_CLIENT_ID")
+GOOGLE_CLIENT_ID = 327438955375-qhs426k87cgp58qv19mvpr5k1d2or957.apps.googleusercontent.com
 ALLOWED_DOMAIN = "gmail.com"  # Cambia esto por tu dominio de Workspace si es necesario
 
 # ==============================
